@@ -17,6 +17,6 @@ app.use(routes)
 
 app.listen(port)
 
-console.log(`API se ejecuta en el puerto ${port}`)
+console.log(`El API se encuentra ejecutando. La documentación completa se encuentra en ${cfg.protocol}://${cfg.host}:${cfg.port}${cfg.routeApiDocs}`)
 
 module.exports = app
